@@ -37,7 +37,7 @@ jobs:
       
       - name: execute py script
         env:
-          ACCESS_KEY: '${{ secrets.ACCESS_TOKEN }}'
+          ACCESS_KEY: ${{ secrets.ACCESS_TOKEN }}
           SECRET_KEY: '${{ secrets.SECRET_KEY }}'
           
         run: python main.py 
