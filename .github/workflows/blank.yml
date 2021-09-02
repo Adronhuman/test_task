@@ -37,6 +37,7 @@ jobs:
       
       - name: execute py script
         env:
-          ACCESS_KEY: ${{ secrets.ACCESS_KEY }}
+          ACCESS_KEY: "pizda"
           SECRET_KEY: ${{ secrets.SECRET_KEY }}
+          
         run: python main.py 
