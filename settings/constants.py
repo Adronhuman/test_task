@@ -1,6 +1,6 @@
 import os
 
-ACCESS_KEY = os.getenv('ACCESS_KEY')
+ACCESS_KEY = os.environ.get('ACCESS_KEY')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 BUCKET_NAME = 'test.task.bucket'
